@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Animation</title>
+
+    <style>
+        #box {
+            width: 50%;
+            height: 300px;           
+            background-color: lightblue; 
+            transition:transform 10s;
+        }
+        #box:hover
+        {
+            transform: translatex(200px);
+            transform: rotatey(200deg);
+        }
+        body{
+            height:700px; ;
+        
+            display:flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+  
+      <div id="box"><p>Lorem ipsum dolor sit amet Ut, doloribus?</p></div>
+</body>
+</html>

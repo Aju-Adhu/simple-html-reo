@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     #container
+     {
+        background-color: lightgreen;
+        border: red solid 5px;
+        display:flex;
+        height:400px;
+        justify-content:space-evenly;
+        align-items: center;
+        flex-wrap: wrap;
+     }
+     #item2,#item5
+     {
+        align-self: start;
+     }
+     .items
+     {
+        font-size: 30px;
+        width:100px;
+        height:100px;
+        border: black solid 2px;
+        background-color: lightblue;
+     }
+    </style>
+</head>
+<body>
+    <div id="container">
+    <div class="items" id="item1">item1</div>   
+    <div class="items" id="item2">item2</div>   
+    <div class="items" id="item3">item3</div>   
+    <div class="items" id="item4">item4</div>   
+    <div class="items" id="item5">item5</div>   
+    </div>
+</body>
+</html>
